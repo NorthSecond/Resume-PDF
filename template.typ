@@ -5,9 +5,9 @@
     )
     set text(
         size: 11pt,
-        font:("Dream Han Serif", "Arial"),
+        font:("Source Han Serif SC", "Arial"),
     )
-    show link: underline
+    show link: text
     set par(
         justify: true,
     )
@@ -19,7 +19,7 @@
       title: name + "'s CV",
       author: name,
     )
-    [= #name]
+    align(center)[= #name]
 }
 
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
@@ -46,4 +46,8 @@
         [#proj_rule]
     }
     linebreak()
+}
+
+#let resume_desc(l, r) = {
+    [- *#l*: #r]
 }
