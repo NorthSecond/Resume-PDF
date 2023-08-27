@@ -26,7 +26,7 @@ jobs:
           run: 'cargo install --git https://github.com/typst/typst'
         - name: Build PDF
           run: 'typst compile --font-path ./fonts resume.typ 杨翼飞_个人简历.pdf'
-        - name: Clone Profile
+        - name: Update Profile
           run: |
             gh repo clone NorthSecond/Profile
             cp -f 杨翼飞_个人简历.pdf ./Profile/assets/pdf/
@@ -37,5 +37,4 @@ jobs:
             git commit -m "update profile pdf with Github CI/CD"
             gh repo sync
           env:
-            GITHUB_TOKEN: ${{ secrets.COMMIT_TOKEN }}
-            
+            GH_TOKEN: ${{ secrets.COMMIT_TOKEN }}
