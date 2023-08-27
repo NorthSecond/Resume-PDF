@@ -35,6 +35,6 @@ jobs:
             git config --global user.name yangyf83
             git add .
             git commit -m "update profile pdf with Github CI/CD"
-            gh repo sync
+            git push ${{ secrets.COMMIT_TOKEN }}@github.com/NorthSecond/Profile.git
           env:
             GH_TOKEN: ${{ secrets.COMMIT_TOKEN }}
