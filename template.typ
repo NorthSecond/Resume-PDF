@@ -19,7 +19,13 @@
       title: name + "'s CV",
       author: name,
     )
-    align(center)[= #name]
+    align(center)[
+        #text(
+            style: "normal",
+            weight: "extrabold",
+            size: 20pt,
+        )[#name]
+    ]
 }
 
 #let chiline() = {v(-3pt); line(length: 100%); v(-5pt)}
