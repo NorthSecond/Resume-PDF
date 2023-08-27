@@ -37,5 +37,5 @@ jobs:
             git commit -m "update profile pdf with Github CI/CD"
             gh repo sync
           env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.COMMIT_TOKEN }}
             
