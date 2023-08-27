@@ -11,7 +11,7 @@
 |
 #link("https://github.com/NorthSecond")[Github:NorthSecond] 
 |
-#link("mailto:yangyf83@aliyun.com")[yangyf83\@aliyun.com]
+#link("mailto:i@yfyang.me")[i\@yfyang.me]
 ]
 #resume_section("教育经历")
 
@@ -63,6 +63,7 @@
   [中山大学软件工程学院·大创项目],
   "2021.11 -- 2022.11"
 )
+
 #resume_desc(
   "项目简介",
   "针对中文长内容的图像·文本双模态信息，构建了一个中文多模态长内容不实信息数据集；同时在 BERT 和 MVNN 图像真实性识别模型基础上，提出了一种基于注意力机制的用于检测“图像 + 文本”多模态中文长内容信息真实性的深度学习模型。"
