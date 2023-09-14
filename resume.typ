@@ -14,7 +14,7 @@
 |
 #link("https://github.com/NorthSecond")[Github:NorthSecond] 
 |
-#link("mailto:Yifei%20Yang<i@yfyang.me>")[i\@yfyang.me]
+#link("mailto:Yifei%20Yang<yangyf83@aliyun.com>")[yangyf83\@aliyun.com]
 ]
 #resume_section("教育经历")
 
