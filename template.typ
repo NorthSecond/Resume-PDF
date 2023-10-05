@@ -5,7 +5,7 @@
     )
     set text(
         size: 11pt,
-        font:("Source Han Serif SC", "Arial"),
+        font:("Source Han Serif SC", "Times New Roman", "serif")
     )
     show link: text
     set par(
