@@ -1,15 +1,9 @@
 name: Publish resume
 on: [push]
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
 
 jobs:
     build:
@@ -25,7 +19,7 @@ jobs:
           with:
             version: 'v0.7.0'
         - name: Build PDF
-          run: 'typst compile --font-path ./fonts resume.typ 杨翼飞_个人简历.pdf'
+          run: 'make all'
         - name: Update Profile
           run: |
             gh repo clone NorthSecond/Profile

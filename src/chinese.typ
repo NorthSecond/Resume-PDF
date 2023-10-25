@@ -1,21 +1,38 @@
 // import from template
-#import "template.typ": *;
+#import "../template/template.typ": *;
 #show: template;
 
 #init(
-  "杨翼飞"
+    name: "杨翼飞",
+    // 插入图片功能尚未支持
+    // pic_path: "/img/avatar.jpg",
+    pic_path : "",
 )
 
-#align(center)[
-*Tel:* +86 187 0067 6226
-|
-*Wechat:* YangYifei\_SYSU \
-#link("https://yfyang.me")[https://yfyang.me/]
-|
-#link("https://github.com/NorthSecond")[Github:NorthSecond] 
-|
-#link("mailto:Yifei%20Yang<yangyf83@aliyun.com>")[yangyf83\@aliyun.com]
-]
+#info(
+    color: rgb(0, 0, 0),
+    (
+        icon: "/img/fa/fa-home.svg",
+        link: "https://yfyang.me/",
+        content: "https://yfyang.me/"
+    ),
+    (
+        icon: fa_github,
+        link: "https://github.com/NorthSecond",
+        content: "NorthSecond"
+    ),
+    (
+        icon: fa_email,
+        link: "mailto:Yifei%20Yang<yangyf83@aliyun.com>",
+        content: "yangyf83@aliyun.com",
+    ),
+    (
+        icon: fa_wechat,
+        // link: "tel:+86 133 3333 3333",
+        content: "JoengJikFei",
+    ),
+)
+
 #resume_section("教育经历")
 
 #resume_item(
