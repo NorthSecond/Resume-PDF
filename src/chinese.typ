@@ -28,7 +28,7 @@
     ),
     (
         icon: fa_wechat,
-        link: "https://onedrive.yfyang.me/api/raw/?path=/Wechat_QRcode.jpg",
+        link: "https://onedrive.yfyang.me/Wechat_QRcode.jpg",
         content: "JoengJikFei",
     ),
 )
