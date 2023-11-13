@@ -23,12 +23,12 @@
     ),
     (
         icon: fa_email,
-        link: "mailto:Yifei%20Yang<yangyf83@aliyun.com>",
-        content: "yangyf83@aliyun.com",
+        link: "mailto:Yifei%20Yang<yangyf83@foxmail.com>",
+        content: "yangyf83@foxmail.com",
     ),
     (
         icon: fa_wechat,
-        // link: "tel:+86 133 3333 3333",
+        link: "https://onedrive.yfyang.me/api/raw/?path=/Wechat_QRcode.jpg",
         content: "JoengJikFei",
     ),
 )
