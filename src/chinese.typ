@@ -23,12 +23,12 @@
     ),
     (
         icon: fa_email,
-        link: "mailto:Yifei%20Yang<yangyf83@aliyun.com>",
-        content: "yangyf83@aliyun.com",
+        link: "mailto:Yifei%20Yang<yangyf83@foxmail.com>",
+        content: "yangyf83@foxmail.com",
     ),
     (
         icon: fa_wechat,
-        // link: "tel:+86 133 3333 3333",
+        link: "https://onedrive.yfyang.me/api/raw/?path=/Wechat_QRcode.jpg",
         content: "JoengJikFei",
     ),
 )
@@ -38,7 +38,7 @@
 #resume_item(
   "中山大学·计算机学院",
   "硕士生 | 计算机技术",
-  "在 2023 年 9 月通过推免作为2024级研究生加入中山大学计算机学院。",
+  "2024 级推荐免试研究生。",
   "2024.09 -- 2027.06（预计）"
 )
 
@@ -52,7 +52,7 @@
 #resume_item(
   "中山大学·测绘科学与技术学院",
   "遥感科学与技术",
-  "在 2021 年通过转专业不降级进入软件工程学院学习。",
+  "通过转专业不降级进入软件工程学院学习。",
   "2020.09 -- 2021.07"
 )
 
@@ -64,9 +64,9 @@
   "中山大学珠海校区",
   "2021.11 -- 至今"
 )
-#resume_desc("工作职责", "协助处理学校学生生活区校园网络的各种技术故障。")
+#resume_desc("工作职责", "接受关于学校与校区网络与信息化服务的相关咨询，协助处理学校校园网络的各种技术故障。")
 
-#resume_section([项目经历])
+#resume_section([项目经历（节选）])
 
 #resume_item(
   [基于 NuttX RTOS 的符合 POSIX 规范和 SMP 系统的高效任务调度器实现],
@@ -110,7 +110,7 @@
 
 #resume_desc(
   "专业技能竞赛",
-  [2023 年 CCSC 全国大学生系统能力大赛操作系统设计赛功能挑战赛道全国总决赛二等奖、南部区域赛杰出奖，2022 年参与阿里云 Oceanbase 数据库挑战赛；]
+  [2023 年 CCSC 全国大学生系统能力大赛操作系统设计赛功能挑战赛道全国总决赛二等奖、南部区域赛杰出奖，参与第二届 Oceanbase 数据库挑战赛，华为 2023 年 Hackathon 软件难题挑战赛；]
 )
 #resume_desc(
   "数学建模竞赛",
@@ -122,7 +122,7 @@
 )
 #resume_desc(
   "奖学金",
-  [2020-2021 学年度中山大学优秀学生二等奖学金，2021-2022 学年度中山大学优秀学生三等奖学金；]
+  [2020-2021 学年度中山大学优秀学生二等奖学金，2021-2022 学年度中山大学优秀学生三等奖学金，2022-2023 学年度中山大学优秀学生一等奖学金；]
 )
 #resume_desc(
   "其他行政表彰",
@@ -133,15 +133,15 @@
 
 #resume_desc(
   "编程语言",
-  [常用 C/C++，第 30 次 CCF CSP 计算机软件能力认证 C/C++ 组 300 分（当次认证全国排位前 2.26\%）；有过 Python、Rust、Java、SQL、Matlab、TypeScript，Golang 等语言的开发经历。]
+  [常用 C/C++，第 30 次 CCF CSP 计算机软件能力认证 C/C++ 组 300 分（当次认证全国排位前 2.26\%）；有过 Rust、Python、Java、SQL、Matlab、TypeScript，Golang 等语言的开发经历。]
 )
 #resume_desc(
   "开发工具",
-  [熟悉 Linux 常见发行版的使用和维护、熟练使用 PyTorch、Git、Docker、LaTeX，MySQL/MariaDB；对 Typst、TVM、LLVM、Express，Actix-web 等技术和项目有一定的了解和开发经验。]
+  [熟悉 Linux 常见发行版的使用和维护、熟练使用 GDB、Git、Cargo、Docker、LaTeX、PyTorch，MySQL/MariaDB；对 Typst、TVM、LLVM、Express，Actix-web 等技术和项目有一定的了解和开发经验。]
 )
 #resume_desc(
   "知识领域",
-  [操作系统、分布式系统、智能软件工程、后端开发，开源社区参与与项目维护。]
+  [操作系统、分布式系统、系统安全、智能软件工程、后端开发，开源社区参与与项目维护。]
 )
 #resume_desc(
   "外语能力",
